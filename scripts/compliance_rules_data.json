@@ -1,0 +1,736 @@
+[
+  {
+    "rule_id": "RULE-001",
+    "title": "Subliminal Manipulation Causing Harm",
+    "description": "AI systems that deploy subliminal techniques beyond a person's consciousness, or purposefully manipulative or deceptive techniques, with the objective or effect of materially distorting the behaviour of a person or group, causing or likely to cause significant harm.",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(a)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "subliminal techniques"},
+        {"keyword": "manipulative techniques"},
+        {"keyword": "deceptive techniques"},
+        {"keyword": "materially distorting behaviour"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "Covers both subliminal (beyond consciousness) and deliberately manipulative/deceptive AI techniques. The harm threshold requires significant harm that is reasonably foreseeable."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(a). All deployment and development must cease immediately. The system's manipulative or subliminal capabilities must be fully dismantled. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-002",
+    "title": "Exploitation of Vulnerabilities of Specific Groups",
+    "description": "AI systems that exploit vulnerabilities of a natural person or a specific group of persons due to their age, disability, or a specific social or economic situation, with the objective or effect of materially distorting their behaviour in a manner that causes or is likely to cause significant harm.",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(b)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "exploitation of vulnerabilities"},
+        {"keyword": "age"},
+        {"keyword": "disability"},
+        {"keyword": "social or economic situation"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "Vulnerability criteria: age (children, elderly), disability (physical, mental, sensory), or socio-economic disadvantage. The distortion of behaviour must be material and the harm significant."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(b). Deployment must be halted immediately. Systems targeting vulnerable groups through exploitative design are absolutely prohibited. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-003",
+    "title": "Social Scoring by Public Authorities",
+    "description": "AI systems used by or on behalf of public authorities for the evaluation or classification of natural persons over a certain period of time based on their social behaviour or known, inferred, or predicted personal or personality characteristics, resulting in detrimental or unfavourable treatment that is unjustified or disproportionate.",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(c)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "social scoring"},
+        {"keyword": "public authorities"},
+        {"keyword": "classification of natural persons"},
+        {"keyword": "detrimental treatment"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "Prohibits government-operated social credit systems. Covers scoring based on social behaviour or personality characteristics leading to unfavourable treatment in unrelated contexts or disproportionate to the social behaviour."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(c). Social scoring systems operated by public authorities are absolutely banned. Deployment must be halted and all accumulated social scoring data must be handled in accordance with GDPR. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-004",
+    "title": "Real-Time Remote Biometric Identification in Public Spaces",
+    "description": "AI systems used for real-time remote biometric identification of natural persons in publicly accessible spaces for law enforcement purposes, subject only to the narrow exceptions defined in Article 5(2) through Article 5(4).",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(h)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "biometric identification"},
+        {"keyword": "real-time"},
+        {"keyword": "publicly accessible space"},
+        {"keyword": "law enforcement"}
+      ],
+      "obligations": [],
+      "exceptions": [
+        "Targeted search for specific victims of abduction, trafficking, or sexual exploitation, and search for missing persons",
+        "Prevention of a specific, substantial, and imminent threat to life or physical safety of natural persons, or a genuine and present or foreseeable threat of a terrorist attack",
+        "Localisation or identification of a person suspected of having committed a criminal offence for the purpose of investigation, prosecution, or execution of a criminal penalty for offences punishable by a custodial sentence of at least four years"
+      ],
+      "notes": "Narrow exceptions under Article 5(2)-(4) only. Prior judicial or independent administrative authorisation required. Each use must be necessary and proportionate. Fundamental rights impact assessment required before deployment."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(h). Real-time remote biometric identification for law enforcement in public spaces is banned except under strictly defined and judicially authorised exceptions. Deployment must be halted immediately. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-005",
+    "title": "Emotion Inference in Workplace and Education",
+    "description": "AI systems used to infer the emotions of a natural person in the areas of workplace and education institutions, except where the AI system is intended to be put into service or placed on the market for medical or safety reasons.",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(f)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "emotion inference"},
+        {"keyword": "emotion recognition"},
+        {"keyword": "workplace"},
+        {"keyword": "education"}
+      ],
+      "obligations": [],
+      "exceptions": [
+        "AI systems intended for medical purposes (e.g. therapeutic use)",
+        "AI systems intended for safety reasons (e.g. monitoring driver alertness)"
+      ],
+      "notes": "Covers AI systems that attempt to recognise or infer emotions from biometric data in workplace and educational settings. Medical and safety exceptions are narrowly defined."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(f). Emotion inference systems in workplace and educational contexts are prohibited. Unless a valid medical or safety exception applies, deployment must be halted immediately. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-006",
+    "title": "Untargeted Scraping for Facial Recognition Databases",
+    "description": "AI systems that create or expand facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage.",
+    "risk_tier": "UNACCEPTABLE",
+    "legal_reference": {
+      "article": "Article 5(1)(e)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "facial recognition database"},
+        {"keyword": "untargeted scraping"},
+        {"keyword": "facial images"},
+        {"keyword": "internet or CCTV"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "Absolute prohibition with no exceptions. Covers scraping from the internet and CCTV footage. Applies to both creation of new databases and expansion of existing ones."
+    },
+    "blocks_deployment": true,
+    "requires_documentation": false,
+    "remediation_text": "This AI system constitutes a prohibited practice under EU AI Act Article 5(1)(e). Untargeted scraping of facial images for facial recognition databases is absolutely prohibited with no exceptions. All scraped data must be deleted and deployment must cease. Consult qualified EU AI Act legal counsel.",
+    "effective_date": "2025-02-02"
+  },
+  {
+    "rule_id": "RULE-007",
+    "title": "High-Risk AI in Critical Infrastructure Management",
+    "description": "AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or the supply of water, gas, heating, and electricity, where such systems pose a risk of harm to health, safety, or to a significant disruption of essential services.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 2",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "critical infrastructure"},
+        {"keyword": "safety component"},
+        {"keyword": "essential services"},
+        {"keyword": "digital infrastructure"}
+      ],
+      "obligations": [
+        "Implement a risk management system under Article 9",
+        "Ensure data governance and management practices under Article 10",
+        "Produce and maintain technical documentation under Article 11",
+        "Enable automatic logging and record-keeping under Article 12",
+        "Provide clear instructions for use under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [],
+      "notes": "Annex III Section 2 covers critical infrastructure including road traffic, supply of water, gas, heating, electricity, and critical digital infrastructure. Safety component designation is key."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 2. A conformity assessment must be completed before deployment. Full technical documentation, risk management, and human oversight measures are required. The system must be registered in the EU database under Article 71.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-008",
+    "title": "High-Risk AI in Education and Vocational Training",
+    "description": "AI systems intended to be used for determining access or admission to educational and vocational training institutions, for evaluating learning outcomes, for assessing the appropriate level of education, or for monitoring and detecting prohibited behaviour of students during tests.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 3",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "education"},
+        {"keyword": "vocational training"},
+        {"keyword": "admission decisions"},
+        {"keyword": "learning outcomes assessment"}
+      ],
+      "obligations": [
+        "Implement a risk management system under Article 9",
+        "Ensure training data quality and representativeness under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable logging of system operations under Article 12",
+        "Provide clear user instructions under Article 13",
+        "Design for effective human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [],
+      "notes": "Covers AI-driven admissions, grading, proctoring, and career guidance systems. Particular attention to non-discrimination and equity in access to education."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 3. Complete a conformity assessment, ensure non-discriminatory training data, implement human oversight for all admissions and evaluation decisions, and register the system in the EU database under Article 71.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-009",
+    "title": "High-Risk AI in Employment and Worker Management",
+    "description": "AI systems intended to be used for recruitment or selection of natural persons, for making decisions affecting terms of work-related relationships, promotion, or termination of contractual relationships, for task allocation based on individual behaviour or personal characteristics, and for monitoring and evaluation of workers' performance.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 4",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "recruitment"},
+        {"keyword": "employment decisions"},
+        {"keyword": "worker management"},
+        {"keyword": "performance evaluation"},
+        {"keyword": "task allocation"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure non-discriminatory training data under Article 10",
+        "Produce and maintain technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions to deployers under Article 13",
+        "Design for meaningful human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [],
+      "notes": "Broad coverage: recruitment, screening, hiring, promotion, termination, task allocation, and performance monitoring. Includes AI-based CV screening and automated interview analysis."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 4. Employers must ensure meaningful human oversight of all employment decisions, conduct a conformity assessment, ensure non-discriminatory training data, and comply with applicable labour law alongside AI Act requirements.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-010",
+    "title": "High-Risk AI in Access to Essential Services",
+    "description": "AI systems intended to be used for evaluating the creditworthiness of natural persons or establishing their credit score, for risk assessment and pricing in life and health insurance, and for assessing eligibility for public assistance benefits and services.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 5",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "credit scoring"},
+        {"keyword": "creditworthiness"},
+        {"keyword": "insurance risk assessment"},
+        {"keyword": "public assistance eligibility"},
+        {"keyword": "essential services"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure data governance under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions for deployers under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [
+        "AI systems used for fraud detection in financial services (separate assessment required)"
+      ],
+      "notes": "Covers credit scoring, insurance pricing, and public benefit eligibility decisions. Particular attention to preventing discriminatory outcomes against vulnerable or marginalised groups."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 5. Credit scoring and insurance risk assessment systems must undergo conformity assessment, ensure explainability of decisions to affected persons, and implement human review of adverse decisions.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-011",
+    "title": "High-Risk AI in Law Enforcement",
+    "description": "AI systems intended to be used by law enforcement authorities for individual risk assessments of natural persons for predicting the occurrence or reoccurrence of criminal offences, as polygraphs and similar tools, for evaluating the reliability of evidence, and for profiling of natural persons in the course of detection, investigation, or prosecution of criminal offences.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 6",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "law enforcement"},
+        {"keyword": "risk assessment"},
+        {"keyword": "predictive policing"},
+        {"keyword": "criminal profiling"},
+        {"keyword": "evidence evaluation"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure data governance under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15",
+        "Conduct fundamental rights impact assessment under Article 27"
+      ],
+      "exceptions": [],
+      "notes": "Includes predictive policing, crime analytics, lie detection, evidence reliability analysis, and criminal profiling. A fundamental rights impact assessment is mandatory for law enforcement applications."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 6. A fundamental rights impact assessment under Article 27 is required in addition to the standard conformity assessment. Ensure full human oversight and transparency in all law enforcement applications.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-012",
+    "title": "High-Risk AI in Migration and Border Control",
+    "description": "AI systems intended to be used by competent public authorities for polygraphs and similar tools for assessing security risks posed by natural persons entering the territory of a Member State, for examining applications for asylum, visa, and residence permits, and for detection, recognition, or identification of natural persons in the context of migration, asylum, and border control management.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 7",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "migration"},
+        {"keyword": "asylum"},
+        {"keyword": "border control"},
+        {"keyword": "visa assessment"},
+        {"keyword": "security risk assessment"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure data governance under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15",
+        "Conduct fundamental rights impact assessment under Article 27"
+      ],
+      "exceptions": [],
+      "notes": "Covers AI for asylum applications, visa processing, border surveillance, and risk assessment of travellers. Fundamental rights impact assessment mandatory. Must comply with EU asylum and migration law."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 7. A fundamental rights impact assessment is mandatory. Ensure compliance with applicable EU asylum law, non-refoulement obligations, and provide meaningful human review of all individual decisions.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-013",
+    "title": "High-Risk AI in Administration of Justice",
+    "description": "AI systems intended to be used by judicial authorities or on their behalf to assist judicial authorities in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 8",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "administration of justice"},
+        {"keyword": "judicial authority"},
+        {"keyword": "legal research"},
+        {"keyword": "legal interpretation"},
+        {"keyword": "dispute resolution"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure data governance under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [],
+      "notes": "Covers AI used in courtrooms, judicial decision support, legal research tools used by judges, and alternative dispute resolution. AI must not replace judicial decision-making authority."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 8. AI systems assisting judicial authorities must ensure full transparency, human oversight, and must not replace judicial decision-making. Conduct a conformity assessment and register in the EU database.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-014",
+    "title": "High-Risk AI in Biometric Categorisation",
+    "description": "AI systems intended to be used for biometric categorisation that categorise natural persons according to sensitive or protected attributes or characteristics inferred on the basis of their biometric data, including facial images.",
+    "risk_tier": "HIGH",
+    "legal_reference": {
+      "article": "Article 6(2)",
+      "annex": "Annex III, Section 1",
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "biometric categorisation"},
+        {"keyword": "biometric data"},
+        {"keyword": "sensitive attributes"},
+        {"keyword": "facial images"}
+      ],
+      "obligations": [
+        "Implement risk management system under Article 9",
+        "Ensure data governance under Article 10",
+        "Produce technical documentation under Article 11",
+        "Enable automatic logging under Article 12",
+        "Provide clear instructions under Article 13",
+        "Design for human oversight under Article 14",
+        "Ensure accuracy, robustness, and cybersecurity under Article 15"
+      ],
+      "exceptions": [
+        "Labelling or filtering of lawfully acquired biometric datasets in the area of law enforcement"
+      ],
+      "notes": "Distinct from the real-time biometric identification ban (Article 5). Covers non-real-time categorisation by sensitive attributes (race, ethnicity, political opinions, etc.). High-risk but not prohibited outright."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": true,
+    "remediation_text": "This AI system is classified as high-risk under Annex III, Section 1. Biometric categorisation systems using sensitive attributes must undergo conformity assessment, implement human oversight, and ensure non-discriminatory operation. Register the system in the EU database.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-015",
+    "title": "Transparency for AI Chatbots and Conversational Systems",
+    "description": "Providers of AI systems that are intended to interact directly with natural persons must ensure that the AI system is designed and developed in such a way that the natural person is informed that they are interacting with an AI system, unless this is obvious from the circumstances and context of use.",
+    "risk_tier": "LIMITED",
+    "legal_reference": {
+      "article": "Article 50(1)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "chatbot"},
+        {"keyword": "conversational AI"},
+        {"keyword": "direct interaction"},
+        {"keyword": "natural person"}
+      ],
+      "obligations": [
+        "Clearly inform users they are interacting with an AI system",
+        "Disclosure must be provided before or at the start of the interaction",
+        "Disclosure must be clear, concise, and understandable"
+      ],
+      "exceptions": [
+        "Obvious from the circumstances and context of use that interaction is with AI",
+        "AI systems authorised by law for detection, prevention, investigation, or prosecution of criminal offences"
+      ],
+      "notes": "Applies to all chatbots, virtual assistants, and AI systems that interact directly with natural persons via text, voice, or other modalities."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system requires transparency disclosure under Article 50(1). Users must be informed that they are interacting with an AI system before or at the start of the interaction. Implement a clear and prominent disclosure mechanism.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-016",
+    "title": "Transparency for Deepfake Content Generation",
+    "description": "Providers of AI systems that generate synthetic audio, image, video, or text content must ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated. Deployers who use such systems for deepfakes must disclose that the content has been artificially generated or manipulated.",
+    "risk_tier": "LIMITED",
+    "legal_reference": {
+      "article": "Article 50(4)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "deepfake"},
+        {"keyword": "synthetic content"},
+        {"keyword": "artificially generated"},
+        {"keyword": "image generation"},
+        {"keyword": "video generation"},
+        {"keyword": "audio generation"}
+      ],
+      "obligations": [
+        "Mark outputs in a machine-readable format as AI-generated",
+        "Ensure outputs are detectable as artificially generated or manipulated",
+        "Deployers must disclose that content is AI-generated when publishing",
+        "Use technical solutions that are effective, interoperable, robust, and reliable"
+      ],
+      "exceptions": [
+        "AI-generated content that is part of an obviously creative, satirical, artistic, or fictional work",
+        "AI systems authorised by law for detection, prevention, investigation, or prosecution of criminal offences"
+      ],
+      "notes": "Covers all modalities: text, image, audio, video. Both providers and deployers have obligations. Machine-readable watermarking is the expected technical approach."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is subject to deepfake transparency requirements under Article 50(4). All AI-generated synthetic content must be labelled in a machine-readable format. Deployers must disclose AI generation to recipients. Implement watermarking and labelling mechanisms.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-017",
+    "title": "Transparency for Emotion Recognition Systems",
+    "description": "Deployers of emotion recognition systems or biometric categorisation systems must inform natural persons exposed thereto of the operation of the system and process personal data in accordance with Regulation (EU) 2016/679 (GDPR), Directive (EU) 2016/680, and Regulation (EU) 2018/1725.",
+    "risk_tier": "LIMITED",
+    "legal_reference": {
+      "article": "Article 50(3)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "emotion recognition"},
+        {"keyword": "biometric categorisation"},
+        {"keyword": "natural persons exposed"},
+        {"keyword": "personal data processing"}
+      ],
+      "obligations": [
+        "Inform exposed natural persons of the operation of the system",
+        "Comply with GDPR requirements for processing personal data",
+        "Comply with the Law Enforcement Directive where applicable",
+        "Provide information in a clear and distinguishable manner"
+      ],
+      "exceptions": [
+        "AI systems authorised by law for detection, prevention, investigation, or prosecution of criminal offences"
+      ],
+      "notes": "Applies to emotion recognition systems not banned under Article 5 (i.e., outside workplace and education contexts). Deployers must inform exposed persons and comply with data protection law."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is subject to transparency requirements under Article 50(3). All persons exposed to the emotion recognition system must be informed. Ensure full GDPR compliance for processing biometric and personal data. Implement prior notification mechanisms.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-018",
+    "title": "AI-Generated Content Labelling Obligations",
+    "description": "Providers of AI systems that generate or manipulate text which is published for the purpose of informing the public on matters of public interest must ensure that the text is marked as AI-generated. Deployers using AI to generate text published as informing the public must disclose its artificial generation.",
+    "risk_tier": "LIMITED",
+    "legal_reference": {
+      "article": "Article 50(2)",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "AI-generated text"},
+        {"keyword": "content labelling"},
+        {"keyword": "public interest"},
+        {"keyword": "informing the public"}
+      ],
+      "obligations": [
+        "Disclose that AI-generated text was produced by an AI system",
+        "Mark content in a machine-readable format where technically feasible",
+        "Deployers must disclose AI generation when publishing content informing the public"
+      ],
+      "exceptions": [
+        "Content that has undergone human review and where a natural person holds editorial responsibility",
+        "AI-assisted content where AI is used merely as a tool and editorial control remains with humans"
+      ],
+      "notes": "Primarily targets AI-generated news articles, reports, and public information content. Editorial responsibility and human review are key factors for the exceptions."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is subject to content labelling requirements under Article 50(2). AI-generated text intended to inform the public must be clearly labelled. Implement machine-readable marking and visible disclosure to content recipients.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-019",
+    "title": "Minimal Risk — Spam Filtering Systems",
+    "description": "AI systems used for email spam filtering and similar content filtering that do not fall under any of the high-risk or limited-risk categories. These systems are not subject to specific obligations under the EU AI Act but providers are encouraged to voluntarily adhere to codes of conduct under Article 95.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "spam filter"},
+        {"keyword": "content filtering"},
+        {"keyword": "email classification"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations. Voluntary codes of conduct under Article 95 are encouraged. Providers may voluntarily apply requirements for trustworthy AI."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. Providers are encouraged to voluntarily adopt codes of conduct under Article 95 to promote trustworthy AI practices.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-020",
+    "title": "Minimal Risk — AI in Video Games",
+    "description": "AI systems used in video games for non-player character behaviour, procedural content generation, difficulty adaptation, and other entertainment purposes that do not interact with real-world decision-making processes.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "video games"},
+        {"keyword": "NPC behaviour"},
+        {"keyword": "procedural generation"},
+        {"keyword": "entertainment"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations. Video game AI that does not interact with real-world decision-making is minimal risk. If a game includes emotion recognition or real-player profiling, additional rules may apply."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. Consider voluntary codes of conduct under Article 95, particularly regarding player data protection and fair monetisation practices.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-021",
+    "title": "Minimal Risk — Basic Recommendation Systems",
+    "description": "AI systems used for basic content and product recommendation that do not involve profiling with significant effects on individuals, such as suggesting products based on browsing history or content similarity, without influencing access to essential services.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "recommendation system"},
+        {"keyword": "content suggestion"},
+        {"keyword": "product recommendation"},
+        {"keyword": "browsing history"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations under the AI Act. Note: online platforms using recommender systems are separately subject to the Digital Services Act (Regulation (EU) 2022/2065) transparency obligations."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. Providers should be aware of separate obligations under the Digital Services Act for recommender systems on online platforms.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-022",
+    "title": "Minimal Risk — Inventory Optimisation Systems",
+    "description": "AI systems used for inventory management, stock level optimisation, demand forecasting for supply chain purposes, and warehouse logistics that do not directly affect natural persons' rights or access to services.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "inventory optimisation"},
+        {"keyword": "demand forecasting"},
+        {"keyword": "supply chain"},
+        {"keyword": "warehouse logistics"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations. Purely operational AI systems for inventory and supply chain management are minimal risk. If the system influences worker management or employment decisions, it may be reclassified as high-risk."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. Note: if the system is extended to include worker management or scheduling decisions, it may fall under Annex III, Section 4 (high-risk).",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-023",
+    "title": "Minimal Risk — AI-Powered Search Ranking",
+    "description": "AI systems used for ranking search results on general-purpose search engines or within applications, where the ranking does not determine access to essential services or disproportionately affect individuals' rights.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "search ranking"},
+        {"keyword": "information retrieval"},
+        {"keyword": "result ordering"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations under the AI Act. Search engine providers that are very large online platforms have separate transparency obligations under the Digital Services Act."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. Consider voluntary adherence to codes of conduct under Article 95.",
+    "effective_date": "2026-08-02"
+  },
+  {
+    "rule_id": "RULE-024",
+    "title": "Minimal Risk — AI-Assisted Language Translation",
+    "description": "AI systems used for automated language translation services that do not directly interact with natural persons in a way that requires transparency disclosure, such as backend translation engines for internal business use.",
+    "risk_tier": "MINIMAL",
+    "legal_reference": {
+      "article": "Article 95",
+      "annex": null,
+      "regulation": "Regulation (EU) 2024/1689"
+    },
+    "rule_tree": {
+      "conditions": [
+        {"keyword": "language translation"},
+        {"keyword": "automated translation"},
+        {"keyword": "machine translation"}
+      ],
+      "obligations": [],
+      "exceptions": [],
+      "notes": "No mandatory obligations for backend translation services. If the translation system directly interacts with users (e.g. a chatbot translator), Article 50(1) transparency obligations may apply, reclassifying it as limited risk."
+    },
+    "blocks_deployment": false,
+    "requires_documentation": false,
+    "remediation_text": "This AI system is classified as minimal risk under the EU AI Act. No specific regulatory obligations apply. If the system is deployed as a user-facing chatbot or interactive translator, assess whether Article 50(1) transparency obligations apply.",
+    "effective_date": "2026-08-02"
+  }
+]

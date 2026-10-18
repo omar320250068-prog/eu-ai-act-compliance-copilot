@@ -1,0 +1,33 @@
+# ── Secrets / environment ──────────────────────────────────────────
+.env
+backend/.env
+*.env
+!.env.example
+
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ── Virtual environments ───────────────────────────────────────────
+venv/
+.venv/
+env/
+backend/venv/
+
+# ── Separate app (not part of this project) ────────────────────────
+nova/
+
+# ── Logs / dumps ───────────────────────────────────────────────────
+*.log
+*.sql.gz
+
+# ── Editors / OS ───────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
